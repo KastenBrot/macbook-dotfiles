@@ -88,7 +88,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git battery zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git battery zsh-autosuggestions zsh-syntax-highlighting iterm2 fnm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -123,6 +123,8 @@ source $ZSH/oh-my-zsh.sh
 #alias rider='open -na "Rider.app" --args "$@"'
 #alias ws='open -na "WebStorm.app" --args "$@"'
 alias m='micro'
+alias rider='open -na "Rider.app" --args "$@"'
+alias storm='open -na "WebStorm.app" --args "$@"'
 
 eval "$(fnm env --use-on-cd --shell zsh)"
 
